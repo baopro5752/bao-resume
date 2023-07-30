@@ -1,0 +1,88 @@
+
+#Resume {
+    background-color: #34c78a;
+    text-align: center;
+    padding: 80px 20px 80px 20px;
+    margin: 0px;
+}
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+nav a:hover {
+    background-color: aliceblue;
+    color: black;
+}
+#flex_container {
+    display: flex;
+}
+#left_side {
+    flex: 30%;
+    background-color:rgb(185, 195, 195);
+    padding: 20px;
+}
+#right_side {
+    flex: 70%;
+    background-color: bisque;
+    padding: 20px;
+}
+footer {
+    background-color: #333;
+    color: aliceblue;
+    padding: 14px 20px;
+    text-align: center;
+}
+footer a {
+    color: aliceblue;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  table tr:hover {background-color: #ddd;}
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+  }
+/* margin: cho thêm khoảng trống bên ngoài, không liên quan tới nội dung 
+bên trong */
+/* padding: cho thêm khoảng trống, thuộc những nội dung ở 
+bên trong(bao gồm backgroud color,text-align,...) */
+/* Trong code web muốn ép nội dung hoặc(cho giãn nở) vào trong 
+thì dùng padding còn muồn tăng các khoảng trống giữa các phần với nhau
+thì dùng margin */
+/* dấu sao(*) là tất cả nội dung trong trang web */
+/* :hover dùng để code hiệu ứng css bạn muốn khi để chuột vào */
+/* Mình sẽ cần làm sao để thằng nav(parent của thằng a) nó
+thay đổi độ lớn theo thằng a
+Overflow(tràn ra): hidden cái nav, loại bỏ phần chừa ra
+display(trưng bày): block cái nav a để cho từng item thành các block hàng ngang, to nhỏ 
+tùy vào từng cái a
+float các cái a sang trái để cho thành hàng ngang */
+/* float: trôi */
